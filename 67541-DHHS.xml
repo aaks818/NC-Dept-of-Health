@@ -1,0 +1,30 @@
+<Extensions>
+  <Version>1.7</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>OCME Conference Room</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Sliders</Icon>
+    <Name>OCME Conference Room</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Page</Name>
+      <Row>
+        <Name>Projector</Name>
+        <Widget>
+          <WidgetId>on</WidgetId>
+          <Name>On</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>off</WidgetId>
+          <Name>Off</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
